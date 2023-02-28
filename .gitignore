@@ -7,5 +7,4 @@ project/metals.sbt
 # sbt
 target/
 project/target/
-
 project/project/
