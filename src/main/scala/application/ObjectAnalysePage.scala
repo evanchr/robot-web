@@ -1,4 +1,4 @@
-package application
+
 import library.Html
 import library.Tag
 import library.Texte
