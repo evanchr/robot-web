@@ -1,4 +1,4 @@
-
+package application
 import library.Html
 import library.Tag
 import library.Texte
@@ -6,10 +6,10 @@ import library.Expression
 import library.OutilsWebObjet
 import library.AnalysePage
 
-object AnalysePagev extends AnalysePage{
+object ObjectAnalysePage extends AnalysePage{
  type URL = String
  type Titre = String
- val objFiltrageUrls:URLFiltres = new URLFiltres
+ val objFiltrageUrls: URLFiltres = new URLFiltres
  val objFiltrageHtml: FiltreHTML= new FiltreHTML
  def resultats(url:String,exp:Expression):List[(Titre,URL)]= {
     val leHtml : Html = OutilsWebObjet.obtenirHtml(url)

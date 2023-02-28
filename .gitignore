@@ -8,3 +8,6 @@ project/metals.sbt
 target/
 project/target/
 project/project/
+# html, css
+.html
+.css

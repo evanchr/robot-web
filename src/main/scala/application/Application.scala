@@ -7,7 +7,6 @@ import library.Mot
 import library.Expression
 import library.ParserExpression
 import library.AnalysePage
-
 import application.ObjectAnalysePage
 object Application extends App{
   
