@@ -1,0 +1,29 @@
+/* Modifier la balise a pour les liens */
+a {
+  text-decoration: none; /* Supprimer le soulignement par défaut */
+  color: #333; /* Couleur du texte pour les liens */
+  transition: color 0.2s ease-in-out; /* Ajouter une transition fluide pour la couleur du texte */
+  transition: font-size 0.2s ease-in-out; /* Ajouter une transition fluide pour la couleur du texte */
+}
+
+/* Transitions quand on survol les liens */
+a:hover {
+  color: #007bff; /* Couleur du texte au survol du lien */
+  font-size:20px
+}
+
+/* Modifier la balise h1 pour le titre */
+h1 {
+  font-size: 2.5rem; /* Taille de la police pour le titre */
+  text-align: center; /* Centrer le texte */
+  margin-top: 1rem; /* Ajouter un peu d'espace au-dessus du titre */
+}
+
+/* Modifier le body pour l'arrière-plan */
+body {
+  background-color: #e6e6e6;
+  background-image: linear-gradient(to bottom, #aaaaaa, #bbbbbb, #cccccc);
+  font-family: sans-serif; /* Police de caractères pour tout le texte */
+  margin: 0; /* Supprimer la marge par défaut */
+  padding: 0; /* Supprimer le padding par défaut */
+}
